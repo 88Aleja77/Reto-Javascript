@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <title>Notas de Estudiantes</title>
+  </head>
+  <body background="assets/fondo.jpg" class="body">
+    <aside class="aside">
+        <h1 class=texth1>Notas</h1>
+      <form class="form">
+        <label class="labels" for="studentName">Nombre del estudiante</label>
+        <input id="studentName" placeholder="Nombre" type="text" max="70" />
+        <br />
+        <br />
+        <label class="labels" for="studentId">Identificacion</label>
+        <input id="studentId" placeholder="Numero de documento" type="text" max="99999999" />
+        <br/>
+        <br/>
+        <label class="labels" for="noteOne">Ingrese 1 Nota</label>
+        <input id="noteOne" placeholder="primera nota" type="number" min="0" max="5" step=".1" />
+        <br/>
+        <br/>
+        <label class="labels" for="secondNote">Ingrese 2 Nota</label>
+        <input id="secondNote" placeholder="segunda nota" type="number" min="0" max="5" step=".1" />
+        <br/>
+        <br/>
+        <label class="labels" for="threeNote">Ingrese 3 Nota</label>
+        <input id="threeNote" placeholder="tercera nota" type="number" min="0" max="5" step=".1" />
+        <br/>
+        <br/>
+        <br>
+        <br>
+        <button class="boton" id="saveDataBtn">Guardar</button>
+      </form>
+      <br />
+      <hr />
+    </aside>
+
+    <a class="vinculo" href="ConsultarData.html" >Ir a Consultar Datos</a>
+    <script src="assets/index.js"></script>
+  </body>
+</html>

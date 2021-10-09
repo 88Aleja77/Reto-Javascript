@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bungee+Shade&family=Ma+Shan+Zheng&family=Pattaya&display=swap');
+.body{
+    text-align: center;
+    font-family:'Kanadaka', cursive;
+    height: 700%;
+    width: 90%;
+    margin: 100px;
+}
+.aside{
+    display:block;
+    background: rgba(146, 172, 207, 0.425);
+    text-align: center;
+    font-size: 2em;
+    color: rgb(23, 24, 99);
+    width: 40%;
+    margin-inline: auto;
+}
+.texth1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    height: 140%;padding-right: 30px;
+    text-shadow:rgb(135, 131, 138) 5px 5px 5px;
+}
+
+.form {
+    font-size: 14px;
+    display:block;
+    padding: 15px;
+    background: linear-gradient(to right, hsla(340, 39%, 55%, 0.678), hsla(204, 25%, 42%, 0.753));
+    text-align: center;
+    text-align: -webkit-match-parent;
+    list-style-type: disc;
+}
+.labels{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin: 3px;
+}
+.boton{
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgba(78, 29, 72, 0.897); 
+}
+#noteOne{
+    display: inline-block;
+    width: 165px;
+    text-align: left;
+    margin: 3px;
+}
+#secondNote{
+    display: inline-block;
+    width: 165px;
+    text-align: left;
+    margin: 3px;
+}
+#threeNote{
+    display: inline-block;
+    width: 165px;
+    text-align: left;
+    margin: 3px;
+}
+.vinculo{
+    font-size: 18px;
+    text-shadow:rgb(26, 6, 71) 6px 6px 6px;
+}
